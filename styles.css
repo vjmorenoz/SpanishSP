@@ -149,6 +149,12 @@ body {
   margin: 20px auto;
 }
 
+@media screen and (max-width: 768px) {
+  .articles {
+    margin: auto;
+  }
+}
+
 /* Barra lateral */
 .sidebar {
   width: 25%;
@@ -166,6 +172,12 @@ body {
 .sidebar ul li a {
   text-decoration: none;
   color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
 }
 
 /* Sección de artículos */
