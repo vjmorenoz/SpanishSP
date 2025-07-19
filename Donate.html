@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Starter Pack</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <script src="https://www.paypal.com/sdk/js?client-id=BAAf0JMFF5ssYYZA2xNxhK8uaPbTHW6cxBrBJrPB_qrcp-UcC5ZQ8pNf-SXihz8SFbtsNdqXzkdxvDQ24E&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+</head>
+<body>
+    
+    <div class="navbar">
+        <div class="logo">Spanish Starter Pack</div>
+        <div class="nav-links">
+            <a class="home" href="index.html">Home</a>
+            <a href="./lessons.html">Lessons</a>
+            <a href="#">Tips</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./Donate.html">Donate</a>
+        </div>
+    </div>
+    
+    <div class="container">
+        
+        <div class="articles-lesson">
+            <div class="article">
+                <h2>Support the project!</h2>
+                <p>
+                    Spanish Starter Pack is a free resource, but your support helps improve and expand the platform. Future plans include creating books, e-books, and even an app for offline learning.
+                    <br>
+                    If you'd like to support SSP's development, you can donate here:
+                    <br>
+
+                    <div id="paypal-button-container">
+                        <div id="paypal-container-AG5DAYSQGR6M4"></div>
+                        <script>
+                            paypal.HostedButtons({
+                            hostedButtonId: "AG5DAYSQGR6M4",
+                            }).render("#paypal-container-AG5DAYSQGR6M4")
+                        </script>
+                    </div>
+                    
+                </p>  
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <footer class="footer">
+            <div class="footer-container">
+
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p>Email: <a href="mailto:jmteach15@gmail.com">jmteach15@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Spanish Starter Pack. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <!-- Scripts y otros-->
+
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+        kofiWidgetOverlay.draw('spanishstarterpack', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Support me',
+        'floating-chat.donateButton.background-color': '#794bc4',
+        'floating-chat.donateButton.text-color': '#fff'
+        });
+    </script>
+    <script src="Script.js" defer></script>
+</body>
+</html>
